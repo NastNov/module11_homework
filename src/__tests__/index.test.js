@@ -1,12 +1,9 @@
 import { countDown } from "../index.js";
 
-xdescribe("test multiply", () => {
-  it("multiply 1 * 0 to equal 0", () => {
-    const result = multiply(1, 0);
-    expect(result).toBe(0);
-  }),
-    it("multiply 1 * 1 to equal 1", () => {
-      const result = multiply(1, 1);
-      expect(result).toBe(1);
-    });
+test('countdown from 3 to 1', () => {
+  expect(countDown(3)).toBe(3, 2, 1);
+});
+
+test('countdown from 3 to 1', () => {
+  expect(countDown(0)).toBe(undefined);
 });
