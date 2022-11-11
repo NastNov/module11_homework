@@ -1,4 +1,4 @@
-import { multiply } from "../index.js";
+import { countDown } from "../index.js";
 
 xdescribe("test multiply", () => {
   it("multiply 1 * 0 to equal 0", () => {
