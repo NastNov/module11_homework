@@ -1,3 +1,5 @@
-export function multiply(a, b) {
-    return a * b;
+export function countDown(n) {
+	for (let i = n; i >= 1; --i) {
+  	console.log(i);
+  } 
 }
